@@ -1,0 +1,9 @@
+Started by user [8mha:////4Atjz4mlmERI8mhRZycBxX3UnMI0FJYlp95P16q0/jJaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins5639742678854589186.sh
++ sudo -S cp /var/lib/jenkins/workspace/build/target/java-tomcat-maven-example.war /var/lib/tomcat9/webapps/
+[sudo] password for jenkins: 
+sudo: no password was provided
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

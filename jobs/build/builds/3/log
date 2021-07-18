@@ -1,0 +1,75 @@
+Started by user [8mha:////4Atjz4mlmERI8mhRZycBxX3UnMI0FJYlp95P16q0/jJaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/suhaspd2510/java-test.git # timeout=10
+Fetching upstream changes from https://github.com/suhaspd2510/java-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/suhaspd2510/java-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a973e09ab9beb90d098ddfdc3d47d6a312200521 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a973e09ab9beb90d098ddfdc3d47d6a312200521 # timeout=10
+Commit message: "java source code"
+ > git rev-list --no-walk a973e09ab9beb90d098ddfdc3d47d6a312200521 # timeout=10
+[build] $ /bin/sh -xe /tmp/jenkins6901149570117183003.sh
++ cd /var/lib/jenkins/workspace/build
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.example:java-tomcat-maven-example >----------------
+[INFO] Building hello Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ java-tomcat-maven-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-tomcat-maven-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-tomcat-maven-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ java-tomcat-maven-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/build/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ java-tomcat-maven-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ java-tomcat-maven-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ java-tomcat-maven-example ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [java-tomcat-maven-example] in [/var/lib/jenkins/workspace/build/target/java-tomcat-maven-example]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/build/src/main/webapp]
+[INFO] Webapp assembled in [48 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/build/target/java-tomcat-maven-example.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.3:copy (default) @ java-tomcat-maven-example ---
+[INFO] Configured Artifact: com.github.jsimone:webapp-runner:8.5.11.3:jar
+[INFO] Copying webapp-runner-8.5.11.3.jar to /var/lib/jenkins/workspace/build/target/dependency/webapp-runner.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ java-tomcat-maven-example ---
+[INFO] Installing /var/lib/jenkins/workspace/build/target/java-tomcat-maven-example.war to /var/lib/jenkins/.m2/repository/com/example/java-tomcat-maven-example/1.0-SNAPSHOT/java-tomcat-maven-example-1.0-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/build/pom.xml to /var/lib/jenkins/.m2/repository/com/example/java-tomcat-maven-example/1.0-SNAPSHOT/java-tomcat-maven-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.848 s
+[INFO] Finished at: 2021-07-18T12:51:39Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4PFHlzU7W2X70tXgo5d+BfkbPBMHiav1WCEZfy8I8ry3AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Finished: SUCCESS

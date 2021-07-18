@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4GzjnPqEoXSXjJAsnKMnKyRuhbox7FjR8RXwwMDGC44QAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4ArGd+AkSNfkeMjob0YaMnT24sHqH0UNTY6FgZFEAeAEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfRMAtZMNkcEAAAA=[0m4
+originally caused by:
+ Started by GitHub push by suhaspd2510
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins7531764003552255055.sh
++ cp /var/lib/jenkins/workspace/build/target/java-tomcat-maven-example.war /var/lib/tomcat9/webapps/
+Triggering a new build of [8mha:////4MZNIm+vndVnjmnbdRfdQ2tHuO7KjTGPlY2hq4q5+WRJAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2S1OISfQCnUQg9vwAAAA==[0mtest
+Finished: SUCCESS
